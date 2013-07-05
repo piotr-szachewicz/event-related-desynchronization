@@ -12,10 +12,13 @@ pkg load signal;
 printf("====================== SETTING PATHS ======================\n")
 
 addpath(strcat(pwd, '/classifier/'));
-addpath(strcat(pwd, '/classifier/experiments/'));
+addpath(strcat(pwd, '/evaluation/'));
+addpath(strcat(pwd, '/experiments/'));
+addpath(strcat(pwd, '/features/'));
+addpath(strcat(pwd, '/files/'));
+addpath(strcat(pwd, '/preprocessing/'));
 addpath(strcat(pwd, '/utils/'));
-addpath(strcat(pwd, '/visualization'));
-addpath(strcat(pwd, '/indiv_bands'));
+
 addpath(pwd);
 
 % if it already exist, we don't install biosig once again.
