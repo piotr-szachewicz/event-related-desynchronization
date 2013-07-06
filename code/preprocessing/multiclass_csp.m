@@ -16,7 +16,7 @@ c4 = trigg(s, h.TRIG(ismember(h.Classlabel, 4)), round(pre*fs), round(post*fs))'
 ECM = cat(3,covm(c1,'E'),covm(c2,'E'), covm(c3,'E'), covm(c4,'E'));
 ECM = permute(ECM,[3,1,2]);
 
-[v,d] = csp(ECM);
+[v,d] = fixed_csp(ECM);
 
 %shorter_v = [v(:,1) v(:,end)];
 
