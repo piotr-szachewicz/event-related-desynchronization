@@ -1,3 +1,5 @@
+EVENT-RELATED DESYNCHRONIZATION
+===============================
 
 This repository contains an algorithm that is able to classify the four class motor imagery EEG data
 from the BCI Competition IV, data set 2a (http://www.bbci.de/competition/iv/#dataset2a).
@@ -13,12 +15,12 @@ It was developed as a part of my master's thesis:
 How to install and use this code:
 
 0. INSTALL PREREQUISITES
-========================
+------------------------
 
     sudo apt-get install octave octave-signal liboctave-dev octave-tsa octave-struct octave-specfun octave-optim octave-miscellaneous
 
 1. CLONE REPOSITORIES
-=====================
+---------------------
 
 Clone this repository and a repository containing BioSig's code
 (I forked this code in order to fix some errors in it).
@@ -28,7 +30,7 @@ Clone this repository and a repository containing BioSig's code
     git clone https://github.com/piotr-szachewicz/biosig.git
 
 2. CONFIGURE
-============
+------------
 
 In the event-related-desynchronization directory there is a settings_example.m file which contains paths
 used by the code. If you download the code to your home directory (~) using the git clone commands written
@@ -38,7 +40,7 @@ above, you only need to copy the settings_example.m file to settings.m:
     cp settings_example.m settings.m
 
 2. DOWNLOAD THE EEG DATA
-========================
+------------------------
 
 Download the BCI Competition data from http://www.bbci.de/competition/iv/#datasets
 and put the *.gdf files inside of the ~/event-related-desynchronization/data/2a directory.
@@ -47,7 +49,7 @@ Download the true labels for the 2a data set from http://www.bbci.de/competition
 Unpack it and put the *.mat files inside of the ~/event-related-desynchronization/data/2a/true_labels/ directory.
 
 3. RUN EXPERIMENTS
-==================
+------------------
 
 You are ready to run your first experiment.
 
@@ -65,7 +67,7 @@ Other files contain:
  
 
 A. APPENDIX -- HOW TO RUN SVM CLASSIFICATION
-============================================
+--------------------------------------------
 
 In order to run the experiments that use the SVM classifier you need to install some more things:
 
