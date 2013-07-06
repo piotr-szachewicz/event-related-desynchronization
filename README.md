@@ -53,7 +53,7 @@ Unpack it and put the *.mat files inside of the ~/event-related-desynchronizatio
 
 You are ready to run your first experiment.
 
-    cd ~/event-related-desynchronization/experiments
+    cd ~/event-related-desynchronization/code/experiments
     octave lda_bp_experiment.m
 
 This code runs the final evaluation experiment using an band power features (BP) and an LDA classifier.
