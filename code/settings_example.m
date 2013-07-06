@@ -1,5 +1,5 @@
 function const = settings()
 	conts = []
-	const.BIOSIG_PATH='~/programs/biosig-svn/biosig';
-	const.ERDRS_PATH='~/repositories/event-related-desynchronization/'
+	const.BIOSIG_PATH='~/biosig/biosig';
+	const.ERDRS_PATH='~/event-related-desynchronization/'
 end
