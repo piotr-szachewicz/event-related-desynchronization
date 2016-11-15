@@ -17,6 +17,9 @@ How to install and use this code:
 0. INSTALL PREREQUISITES
 ------------------------
 
+All the commands below were tested on Ubuntu Linux. If you're using some other Linux distribution or MacOS,
+you might have to install the necessary programs in a different way.
+
     sudo apt-get install octave octave-signal liboctave-dev octave-tsa octave-struct octave-specfun octave-optim octave-miscellaneous
 
 1. CLONE REPOSITORIES
